@@ -10,4 +10,4 @@ Built with:
 # Project 1:
 "Credit Card" landing page.
 - ### Output:
-  ![Output](./1_project_Credit%20Card_Landing_Page/Credit_card_landing_page.png)
+  ![Output](./1_project_Credit_Card_Landing_Page/Credit_card_landing_page.png)
