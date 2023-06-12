@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* margin-inline: auto; */
+    padding-inline: 20px;
+     background-color:black;
+    font-family: roboto;
+    max-width: 1440px;
+    overflow-x: hidden;
+}
+.all-main{
+    margin: 25px 25px;
+    width: 95vw;
+    background-color: #151515;
+    overflow: hidden;   
+}
+
+
+
+
+.navbar{
+    background-color: #151515;
+    display: flex;
+    /* position: fixed; */
+    height: 15vh;
+    align-items: center;
+    justify-content:space-around;
+    padding: 20px;
+    font-size: 20px;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 4rem;
+    color: white;
+}
+.rtb{
+    display: flex;
+    gap: 50px;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.language{
+    border: none;
+    background-color: #151515;
+    color: white;
+}
+.contact-us{
+    position:relative;
+    bottom: 40px;
+    left: 19px;
+    color: white;
+    }
+    .contact-us:hover{
+        cursor: pointer;
+    }
+    .content:hover{
+        cursor: pointer;
+    }
+    .list:hover{
+        cursor: pointer;
+    }
+    .content{
+        transition-duration: 2s;
+        transition-property: margin-right;
+    }
+    /* .content:hover{
+        background-color: yellow;
+    } */
+
+     /* navbar completed */
+
+   .first-part{
+    /* background-color: #151515; */
+    height: 125vh;
+    display: flex;
+    position: relative;
+   }
+
+   .left-section{
+    position: absolute; 
+     margin-top: 1rem;
+    margin-left: 7rem;
+   }
+   .text-section{
+    color: white;
+   }
+   .text{
+    width: 90%;
+    font-size: 82px;
+    color: white;
+   }
+   .left-section h1{
+    width: 90%;
+}
+   span{
+    color:#F637EC;
+   }
+   .hurry{
+    font-size: 21px;
+    letter-spacing:1px;
+    color: #B6B6B6;
+   }
+   .get{
+    display: flex;
+    color: white;
+   }
+   .get-text{
+    font-size: 35px;
+    position: relative;
+    right: 40px;
+   }
+   .pinkbig{
+    width: 90px;
+   }
+   .arrow{
+    position: relative;
+    top: 50px;
+    right: 15px;
+   }
+   .cards{
+    position: absolute;
+   }
+   .count{
+    position: relative;
+    top: 20px;
+    color: white;
+    display: flex;
+    font-size: 25px;
+    gap: 70px;
+   }
+   .count1{
+    display: flex;
+    position: relative;
+    top: 25px;
+   }
+   .count2{
+    display: flex;
+   }
+   .fourtwo{
+    display: flex;
+    font-size: 50px;
+   }
+   .one{
+    display: flex;
+    gap: 10px;
+   }
+   .line{
+    position: absolute;
+    left: 19rem;
+    top: 3rem;
+   }
+   .get:hover{
+    cursor: pointer;
+   }
+   /* left-section completed  */
+   
+    .bcard{
+        position: relative;
+        left: 30rem;
+        bottom: 70px;
+    }
+    .fcard{
+        position: absolute;
+        top: 15px;
+        left: 45rem;
+    } 
+
+
+
+    .logo-section{
+        display: flex;
+        background-color: #292929;
+        height: 30vh;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+     logo section completed 
+
+    .text-section{
+        margin-top: 6rem;
+        display: flex;
+        align-items: center;    
+        margin-left: 6rem;
+    }
+    .htext{
+        color: white;
+        font-size: 2.40rem;
+    }
+    .following{
+        margin-left:7rem;
+        font-size: 28px;
+        color: #B7B7B7;
+    }
+    .images{
+        height: 85vh;
+        margin-top: 5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .dollar{
+        position: relative; 
+        background-color: #272727;
+        border: 2px solid white;
+        width: 22rem;
+        height: 20rem;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+       left: 5rem;
+       top: 5rem;
+    }
+    .dollar-text{
+        position: absolute;
+        top: 13rem;
+        left: 10%;
+    }
+    .dollar-img{
+        position:absolute;
+        left: 25%;
+        top: 20%;
+    }
+
+
+    .cloud{
+        position: relative;
+        background-color: #525050;
+        border: 2px solid white;
+        width: 22rem;
+        height: 20rem;
+        text-align: center;
+        
+    }
+    .cloud-img{
+            position: absolute;
+            left: 25%;
+            top: 15%;
+    }
+    .cloud-text{
+        color: white;
+        font-size: 30px;
+        position: relative;
+        top: 11.50rem;
+        
+
+    }
+    .safety{
+        position: relative;
+        background-color: #272727;
+        border: 2px solid white;
+        width: 22rem;
+        height: 20rem;
+        text-align: center;
+        top: 5rem;
+        right: 5rem;
+    }
+    .safety-img{
+        position: absolute;
+        left: 25%;
+        top: 20%;
+    }
+    .safety-text{
+        position: relative;
+        color: white;
+        font-size: 30px; 
+        top: 12.50rem;
+    }
+
+
+         service section completed 
+
+
+    .card-choice-section{
+        background-color: white;
+        height: 200vh;
+    }
+    .inner-text{
+        text-align: center;
+        position: relative;
+        top: 10rem;
+    }
+    .unique-text{
+        font-size: 40px;
+    }
+    .we-text{
+        color: #5E5B5E;
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .vcards{
+         position: relative;
+         top: 7rem;
+         left: 8rem;
+        
+    }
+
+    /* card choice section completed */
+
+    .feature-section{
+        background-color: #151515;
+        height: 200vh;
+    }
+    .feature-text{
+        position: relative;
+        text-align: center;
+        top: 5rem;
+    }
+    .customer-text{
+        color: white;
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+    .small-feature{
+        position: relative;
+      color:  #C6C6C6;
+      font-size: 23px;
+      top: 1rem;
+    }
+
+    .all-box-section{
+        margin-top: 15rem;
+    }
+
+    .first-panel{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .second-panel{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10rem;
+    }
+
+    .first-box{
+        position: relative;
+        background-color: #4A4746;
+        color: #4A4746;
+        border: solid white 2px ;
+        width: 32rem;
+        height: 16rem;
+        border-right:solid 1px white;
+    }
+    .star-1{
+        position: absolute;   
+        left:5%;
+        top: 10%;
+    }
+    .best-text{
+        color: white;
+        position: relative;
+        font-size: 20px;
+        left: 7%;
+        top: 30%;
+    }
+    .name-yoga{
+        position: relative;
+        color: white;
+        left: 8%;
+        top: 40%;
+        font-size: 20px;
+    }
+
+    .second-box{
+        position: relative;
+        background-color :#1E1F24;
+        border: solid white 2px ;
+        width: 32rem;
+        height: 16rem;
+        border-bottom: solid 1px white;
+    }
+    .star-2{
+        position: absolute;   
+        left:5%;
+        top: 10%;   
+    }
+    .good-text{
+        color: white;
+        position: relative;
+        font-size: 20px;
+        top: 25%;
+        left: 7%;
+    }
+    .name-putra{
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 30%;
+        left: 7%;
+    }
+    .third-box{
+        position: relative;
+        background-color: #1E1F24;
+        border: solid white 2px ;
+        width: 32rem;
+        height: 16rem;
+        border-right:solid 1px white;
+    }
+    .star-3{
+        position: absolute;
+        left:5%;
+        top: 10%;  
+    }
+    .first-text{
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 30%;
+        left: 7%;
+    }
+    .name-farhan{
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 30%;
+        left: 7%;
+    }
+
+    .fourth-box{
+        position: relative;
+        background-color: #1E1F24;
+        border: solid white 2px ;
+        width: 32rem;
+        height: 16rem;
+        border-right:solid 1px white;
+    }
+    .star-4{
+        position: absolute;
+        left:5%;
+        top: 10%; 
+    }
+    .platform-text{
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 30%;
+        left: 7%;
+    }
+    .name-alex{
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 30%;
+        left: 7%;
+    }
+
+    /* features section completed */
+
+    .secondlast-section{
+        position: relative;
+    }
+
+    .let-images{
+        position: relative;
+        height: 90vh;
+    }
+    .rect-1{
+        position: absolute;
+    }
+    .rect-2{
+        position: absolute;
+    }
+    .dnd-1{
+        position: absolute;
+        left: 60%;
+    }
+    .dnd-2{
+        position: absolute;
+    }
+
+   .customing-text{
+    position: absolute;
+    color: white;
+    font-size: 85px;
+    text-align: center;
+    top: 50px;
+    left: 16%;
+    font-weight: 600;
+   }
+   .Customing{
+    color: black;
+   }
+   .last-get{
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    top: 45%;
+    left: 42%;
+   }
+   .last-arrow{
+    width: 90px;
+    position: absolute;
+    top: 51%;
+    left: 57%;
+   }
+   .last-pink{
+    position: absolute;
+    width: 90px;
+    top: 49%;
+    left: 40%;
+   }
+
+   /* secondlast-section completed */
+
+   .foot{
+    display: flex;
+    color: white;
+    text-align: center; 
+    /* justify-content: center; */
+   }
+   .list-1{
+    position: relative;
+    left: 22%;
+    gap: 60px;
+    display: flex;
+    list-style-type: none;
+   }
+   .list-1:hover{
+    cursor: pointer;
+   }
+   .last-logo{
+    position: relative;
+    left:8%;
+   }
+   .footer{
+    height: 20vh;
+   }
+
+   /* Project Completed  */
+   
