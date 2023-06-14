@@ -11,3 +11,11 @@ Built with:
 "Credit Card" landing page.
 - ### Output:
   ![Output](./1_project_Credit_Card_Landing_Page/Credit_card_landing_page.png)
+
+
+
+
+# Project 1:
+"Credit Card" landing page.
+- ### Output:
+  ![Output](./02_Project_Hosting_Site_Landing_Page/Hosting%20Landing%20Page.png)

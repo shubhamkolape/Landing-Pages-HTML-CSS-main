@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif,'poppins';
+    background-color: #111010;
+    overflow-x: hidden;
+    /* max-width: 1440px;
+    margin-inline: auto;
+    padding: 30px;*/
+} 
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1440px;
+    margin-inline: auto;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111010;
+}
+ul{
+    list-style-type: none;
+}
+.flex{
+    display: flex;
+    text-align: center;
+}
+
+/* These are the utility class  */
+
+.main-link{
+    gap: 60px;
+}
+
+.hover-link{
+    font-weight: 600;
+    color: #686767;
+    transition: 0.2s ease-out;
+}
+.hover-link:hover{
+    color: #0C8BFD;
+}
+.primary-button{
+    background-color: #0C8BFD;
+    padding:15px 30px;
+    border-radius: 21px;
+    color: white !important;
+    transition: 0.3s ease-in;
+    font-weight: 600;
+}
+.primary-button:hover{
+    background-color: #0164ba;
+}
+
+/* nav bar completed  */
+
+.left-header{
+   text-align: start;
+   width: 48vw;
+   flex-direction: column;
+
+}
+.main-header{
+    margin-top: 2rem;
+    align-items: center;
+}
+.left-header h1{
+    color: white;
+    font-size: 70px;
+}
+.left-header p{
+    margin-top: 25px;
+    color: #686767;
+    font-size: 22px;
+    line-height: 25px;
+}
+.text-cheapest{
+    color: #0C8BFD;
+    font-style: italic;
+}
+.buttons{
+    margin-top: 4rem;
+}
+.primary-button-1{
+    background-color: #0C8BFD;
+    padding:15px 30px;
+    border-radius: 25px;
+    color: white !important;
+    transition: 0.3s ease-in;
+    font-weight: 600;
+}
+.primary-button-1:hover{
+    background-color: #036ac4;
+}
+.secondary-button{
+    margin-left: 2rem;
+    border: solid white 2px;
+    border-radius: 25px;
+    padding: 15px 20px;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.speed-img{
+    width: 100%;
+}
+/* header section completed  */
+
+.logo-container{
+    margin-top: 70px;
+    height: 20vh;
+    max-width: 1440px;
+    margin-inline: auto;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1D1C1C;
+}
+.spacer{
+    height: 50vh;
+    background-color: #111010;
+}
+
+/* logo container completed  */
+
+.service-section{
+    max-width: 1440px;
+    margin-inline: auto;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    height: 290vh;
+}
+.service-text{
+    margin-top:9rem;
+}
+.service-text h1{
+    text-align: center;
+    font-size: 60px;
+}
+.service-text p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    color: #908F8F;
+}
+
+/* service text section comlpeted  */
+
+.image-box{
+    margin-top: 9rem;
+    justify-content: space-evenly;
+}
+.box-1{
+    border: solid #C8C8C8 2px;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 2rem;
+    transition: 0.2s ease-out;
+}
+.box-1:hover{
+    transform: translateY(-70px);
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 15px black;
+}
+.box-1 img{
+    margin-top: 30px;
+}
+.box-1 h2{
+    margin-top: 30px;
+}
+.box-1 p{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #686767;
+}
+.box-2{
+    border: solid #C8C8C8 2px;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 2rem;
+    transition: 0.2s ease-out;
+}
+.box-2:hover{
+    transform: translateY(-70px);
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 15px black;
+    
+}
+.box-2 img{
+    margin-top: 30px;
+}
+.box-2 h2{
+    margin-top: 30px;
+}
+.box-2 p{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #686767;
+}
+.box-3{
+    border: solid #C8C8C8 2px;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 2rem;
+    transition: 0.2s ease-out;
+}
+.box-3:hover{
+    transform: translateY(-70px);
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 15px black;
+    
+}
+.box-3 img{
+    margin-top: 30px;
+}
+.box-3 h2{
+    margin-top: 30px;
+}
+.box-3 p{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #686767;
+}
+
+/* box section completed  */
+
+.mid-text{
+    margin-top: 10rem;
+    margin-left: 4.50rem;
+    font-size: 28px;
+
+}
+
+.box-in-features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+.left-box-feature{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    gap: 50px;
+}
+.right-box-feature{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.support-box{
+    position: relative;
+    border: solid #686767 1px;
+    padding: 30px 10px;
+    border-radius: 70px;
+    align-items: center;
+    transition: 0.2s ease-in;
+}
+.minus-icon{
+    position: absolute;
+    top: 32px;
+    right: 30px;
+}
+.support-box:hover{
+    background-color: #0C8BFD;
+    color:white;
+    border: none;
+    
+}
+.support-box p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.plus-icon{
+    position: absolute;
+    top: 32px;
+    right: 30px;
+}
+.black-box{
+    background-color: black;
+    border-radius: 2.95rem;
+    height: 48rem;
+    width: 32rem;
+}
+.list li{
+    color: white;
+    font-size: 22px;
+}
+.list{
+    background-color: #3E3D3D;
+    margin: 25px;
+    padding: 20px;      
+    border-radius: 60px
+}
+/* service-offered-section completed  */
+
+
+
+.hosting-plan-section{
+    max-width: 1440px;
+    margin-inline: auto;
+    padding: 20px;
+    background-color:#111010;   
+    height: 190vh;
+    align-items: center;
+}   
+.front-plan{
+    position: relative;
+    
+}
+.text-plan{
+    color: white;
+    font-size: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+.left-arrow{
+    position: absolute;
+    top: 4rem;
+    left: 7rem;
+}
+.right-arrow{
+    position: absolute;
+    top: 4rem;
+    right: 7rem;
+}
+
+/* front pan completed  */
+
+.price-panel{
+    margin-top: 13rem;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.price{
+    background-color: white;
+    height: 48rem;
+    width: 26rem;
+    padding: 35px;
+    border-radius: 30px;
+    transition: 0.2s ease-in;
+}
+.price:hover{
+    transform: translateY(-50px);
+    border: none;
+    box-shadow: 0px 0px 15px black;
+}
+.price-1:hover{
+    transform: translateY(-50px);
+    border: none;
+    box-shadow: 0px 0px 15px black;
+}
+.upper-part{
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+.upper-part h1{
+        font-size: 40px;
+}
+.upper-part h3{
+    font-size: 60px;
+}
+.month{
+    color: #8B8A8A;
+    font-size: 30px;
+}
+.upper-part p{
+    text-align: start;
+    font-weight: 600;
+    line-height: 25px;
+}
+.gap-line{
+    margin-top: 30px;
+}
+.description{
+    align-items:center;
+    justify-content:start;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.description p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.primary-button-3{
+    background-color: #0C8BFD;
+    padding:15px 150px;
+    border-radius: 21px;
+    color: white;
+    transition: 0.3s ease-in;
+    font-weight: 600;
+}
+.primary-button-3:hover{
+    background-color:#0560b0;
+}
+.select{
+    margin-top: 50px;
+}
+.price-1{
+    background-color: white;
+    height: 49rem;
+    width: 26rem;
+    padding: 35px;
+    border-radius: 30px;
+    transition: 0.2s ease-in;
+}
+
+
+/* hosting-plan-section completed  */
+
+.customer-review-panel{
+    max-width: 1440px;
+    margin-inline: auto;
+    padding: 20px;
+    background-color: white;
+    height: 130vh;
+}
+.customer-say{
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+}
+.customer-say-left,.customer-say-right{
+    margin-top: 10rem;
+}
+.customer-say-left h1{
+    font-size: 70px;
+}
+.customer-say-right p{
+    font-size: 22px;
+    color: #686767;
+}
+
+
+.customer-feedback{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.customer-feedback-1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px #686767 ;
+    border-radius: 2rem;
+    height: 25rem;
+    width: 40rem;
+    align-items: start;
+    margin-top: 5rem;
+    justify-content: space-evenly;
+}
+
+.customer-feedback-2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px #686767 ;
+    border-radius: 2rem;
+    height: 25rem;
+    width: 40rem;
+    align-items: start;
+    margin-top: 5rem;
+    justify-content: space-evenly;
+}
+.name{
+    font-size: 20px;
+}
+.feedback p{
+    font-size: 27px;
+    align-items: start;
+}
+.customer-feedback-1:hover{
+    background-color: black;
+    color: white;
+}
+.customer-feedback-2:hover{
+    background-color: black;
+    color: white;
+}
+      /* customer-review-section completed */
+
+
+.form-section{
+    max-width: 1440px;
+    margin-inline: auto;
+    padding: 20px;
+    background-color: #111010;
+    height: 90vh;
+}
+.sign-up{
+    margin-top: 6rem;
+    margin-left: 12rem;
+    color: white;
+    font-size: 58px;
+}
+.from{
+    background-color: #292828;
+    height: 11rem;
+    width: 75rem;
+    margin-left: 5rem;
+    margin-top: 6rem;
+    border-radius: 2.50rem;
+}
+.button-1{
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    background-color: #3E3D3D;
+    border: none;
+    height: 60px;
+    width: 270px;
+    border-radius: 40px;
+    margin-top: 3.50rem;
+    margin-left: 2rem;
+}
+.last-button{
+    background-color: #0C8BFD;
+    font-size: 25px;
+    font-weight:lighter;
+    border: none;
+    color: white !important;
+    padding: 10px;
+    height: 60px;
+    width: 150px;
+    border-radius: 30px;
+    margin-left: 2rem;
+    }
+.second-last-line{
+    color: #4C4B4B;
+    margin-top: 7rem;
+}
+
+
+/* form-section completed */
+
+
+.footer{
+    max-width: 1440px;
+    margin-inline: auto;
+    padding: 20px;
+    background-color: #111010;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer h4{
+    color: white;
+}
+.link-column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.link-column h4{
+    font-size: 28px;
+}
+.hover-link-1{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    transition: 0.2s ease-out;
+}
+.hover-link-1:hover{
+    color: #0C8BFD;
+}
+.last-line{
+    margin-bottom: 3rem;
+}
+.last-logo{
+    max-width: 1440px;
+    margin-inline: auto;
+    margin-top: 5rem;
+    padding: 20px;
+    background-color: #111010;
+}
