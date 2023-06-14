@@ -15,7 +15,7 @@ Built with:
 
 
 
-# Project 1:
-"Credit Card" landing page.
+# Project 2:
+"Hoisting" landing page.
 - ### Output:
   ![Output](./02_Project_Hosting_Site_Landing_Page/Hosting%20Landing%20Page.png)

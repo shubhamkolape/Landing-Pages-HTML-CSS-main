@@ -1,3 +1,3 @@
-## "Credit Card" landing page.
+## "Hoisting" landing page.
 ### Output:
 ![Output](./Hosting%20Landing%20Page.png)
