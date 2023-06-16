@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    background-attachment: fixed;
+    /* overflow-x: hidden; */
+    background-color: black;
+    
+}
+
+a{
+  text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.flex{
+    display: flex;
+}
+
+/* these are the utility classes  */
+
+.main-header{
+    max-width: 1600px;
+    margin-inline: auto;
+    padding: 40px;
+    background-image: url(./Photos/futuristic-bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 110vh;
+}
+
+
+.nav-section{
+    max-width: 1600px;
+    margin-inline: auto;
+    padding: 20px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-bar{
+    margin-left: 10rem;
+}
+.button-list{
+    margin-left:25rem;
+}
+.list{
+    display: flex;
+    gap: 30px;
+}
+.hover-links{
+    color: white;
+}
+.hover-links:hover{
+    color: #F4694C;
+}
+
+
+.primary-button{
+    background-color: #F4694C;
+    padding: 15px 35px;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+.primary-button:hover{
+    background-color: #b34631;
+}
+
+/* nav bar completed  */
+
+.header{
+    max-width: 1440px;
+    margin-inline: auto;
+    padding: 30px;
+}
+.left-header{
+    margin-top: 4rem;
+}
+.left-header h1{
+    color: white;
+    font-size: 55px;
+}
+.left-header p{
+    margin-top: 2rem;
+    color:aliceblue;
+    line-height: 30px;
+}
+.buttons{
+    margin-top: 4rem;
+
+}
+
+.primary-button-1{
+    background-color: #F4694C;
+    padding: 15px 50px;
+    color: white;
+    font-weight: 500;
+}
+.primary-button-1:hover{
+    background-color: #b34631;
+}
+.primary-button-2{
+    background-color: none;
+    border: solid white 1px;
+    color: white;
+    padding: 15px 50px;
+    margin-left: 2rem;
+}
+
+.right-header{
+    position: relative;
+    align-items: center;
+    margin-left: 20rem;
+    margin-top: 15rem;
+    width: 25rem;
+}
+.dash-icon{
+    position: absolute;
+    top: 12.50rem;
+}
+.king-text{
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    top: 12.35rem;
+    left: 3rem;
+}
+.right-arrow{
+    position: absolute;
+    top: 19rem;
+    left: 22rem;
+}
+
+/* header section completed  */
+
+.game-section{
+    max-width: 1600px;
+    margin-inline: auto;
+    padding: 30px;
+    background-color: white;
+    height: 130vh;
+}
+
+.h1-text{
+    font-size: 1.78rem;
+    margin-top: 11rem;
+    text-align: center;
+}
+.cards{
+    gap: 2%;
+    margin-top: 5rem;
+    align-content: center;
+}
+.card{
+     width: 23%;
+    position: relative;
+    min-height: 400px;
+    background: black;
+    background-image:  url("./Photos/card-1.png");  
+    background-position: 75%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    transition: 0.2s ease-out;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px,10px,15px  black;
+}
+.card-1{
+    width: 23%;
+    position: relative;
+    min-height: 400px;
+    background: black;
+    background-image:  url("./Photos/card\ 2.png");  
+    background-position: 50%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    transition: 0.2s ease-out;
+}
+.card-1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px,10px,15px  black;
+}
+.card-2{
+    width: 23%;
+    position: relative;
+    min-height: 400px;
+    background: black;
+    background-image:  url("./Photos/card\ 3.png");  
+    background-position: 50%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    transition: 0.2s ease-out;
+}
+.card-2:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px,10px,15px  black;
+}
+.card-3{
+    width: 23%;
+    position: relative;
+    min-height: 400px;
+    background: black;
+    background-image:  url("./Photos/card\ 4.png");  
+    background-position: 50%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    transition: 0.2s ease-out;
+}
+.card-3:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px,10px,15px  black;
+}
+.title{
+    height: 8rem;
+    width: 21rem;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    text-align: start;
+    top: 17rem;
+    
+}
+.title h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.title p{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.star-images{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.star-images img{
+    width: 6%;
+}
+
+.download-btn{
+    position: absolute;
+    background-color: #EB5411;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    top: 20rem;
+    left: 11rem;
+    font-size: 18px;
+}
+.download-btn:hover{
+    background-color: #f55f1f;
+}
+.war-section{
+    max-width: 1600px;
+    margin-inline: auto;
+    padding: 30px;
+    background-color: white;
+    height: 100vh;
+}
+
+.war-game{
+    margin-top: 6rem;
+  justify-content: space-evenly;
+  /* gap: 5rem */
+}
+.left-war{
+    width: 40%;
+    position: relative;
+    min-height: 500px;
+    background: black;
+     background-image:  url("./Photos/Rectangle\ 57.png");  
+    background-position: 50%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    transition: 0.2s ease-out; 
+}
+.right-war{
+    flex-direction: column;
+}
+.primary-button-3{
+    background-color: none;
+    border: solid #EB5411 1px;
+    color: #EB5411;
+    padding: 15px 50px;
+    margin-left: 2rem;
+}
+.right-war h1{
+    font-size: 50px;
+}
+.right-war p{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.right-war .buttons{
+    margin-top: 110px;
+}
+.recommond-section{
+    max-width: 1600px;
+    margin-inline: auto;
+    padding: 30px;
+    background-color: white;
+    /* margin-top: 8rem; */
+    /* height: 50vh; */
+}
+.two-arrow{
+    margin-left: 35rem;
+    gap: 30px;
+}
+.game-text{
+    margin-left: 5rem;
+    font-size: 22px;
+}
+.larrow{
+    position: relative;
+    background-color: #fecdb7;
+    width: 90px;
+    height: 70px;
+}
+.img-1{
+    position: absolute;
+    width: 50px;
+    top: 25px;
+    left: 20px;
+}
+.rarrow{
+    position: relative;
+    background-color:#F4694C;
+    width: 90px;
+    height: 70px;
+}
+.img-2{
+    position: absolute;
+    width: 50px;
+    top: 30px;
+    left: 20px;
+}
+
+/* recommond-box completed  */
+
+.more-game-section{
+max-width: 1600px;
+margin-inline: auto;
+padding: 30px;
+height: 130vh;
+background-color: white;
+
+}
+
+.card-game{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.game-card{
+    min-height: 200px;
+    width: 40%;
+ 
+}
+.game-card img{
+    width: 50%;
+    height: 90%;
+}
+.card-description{
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.card-description p{
+    margin-top: 20px;
+}
+.download-5{
+    margin-top: 20px;
+}
+
+/* game card complete */
+
+.most-played-game-section{
+    position: relative;
+max-width: 1600px;
+margin-inline: auto;
+padding: 30px;
+height: 130vh;
+background-color: black;
+}
+.played-game-header{
+    margin-left: 15rem;
+    font-size: 30px;
+    padding: 150px 150px;
+    color: white;
+}
+.rect-17{
+    margin-left: 5rem;
+    position: absolute;
+    width: 30%;
+}
+.ptext{
+    left: 40rem;
+    top:30rem;
+    position: absolute;
+    color: white;
+}
+.rect-18{
+    margin-left: 40rem;
+    top: 40rem;
+    position: absolute;
+    width: 25%;
+}
+.rect-19{
+    margin-left: 70rem;
+    top: 60rem;
+    position: absolute;
+    width: 15%;
+}
+.experience{
+    margin-top: 20rem;
+    position: relative;
+}
+
+.rect-606{
+    opacity: 0.5;
+    width: 100%;
+}
+
+.exp-descprition{
+    color: white;
+    position: absolute;
+    top: 10rem;
+    left: 20rem;
+}
+.exp-descprition h2{
+    font-size: 50px;
+}
+.exp-descprition  p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.primary-button-9{
+    position: absolute;
+    left: 40rem;
+    top: 21rem;
+}
+.footer-column{
+    color: white;
+    flex-direction: column;
+}
+.footer-column{
+    gap: 20px;
+}
+.experience-1{
+    margin-left: 18rem;
+    gap: 8rem;
+}

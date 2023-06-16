@@ -19,3 +19,9 @@ Built with:
 "Hoisting" landing page.
 - ### Output:
   ![Output](./02_Project_Hosting_Site_Landing_Page/Hosting%20Landing%20Page.png)
+
+
+  # Project 3:
+"Gaming" landing page.
+- ### Output:
+  ![Output](./03_Project_Gaming_Landing_Page/Gaming%20Landing%20Page.png)
