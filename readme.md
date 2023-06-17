@@ -34,3 +34,12 @@ Built with:
 - ### Output:
   ![Output](./04_Project_Real_Estate_Landing_Page/Real%20Estate%20-%20Desktop.png)
 
+
+
+   # Project 5:
+"Beats" landing page.
+- ### Output:
+  ![Output](./05_Project_Beats_Landing_Page/Main%20Landing%20page.png)
+
+
+
