@@ -43,3 +43,12 @@ Built with:
 
 
 
+  # Project 6:
+"Data Analytics" landing page.
+- ### Output:
+  ![Output](./06_Project_Data_Analytics_Landing_Page/Data%20Analytics%20Landing%20page.png)
+
+
+
+
+
